@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeTimeTicketApp.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeTimeTicketApp.Data", "EmployeeTimeTicketApp.Data\EmployeeTimeTicketApp.Data.csproj", "{BAD467CA-5B8F-4661-91F2-C34F3EE7A3A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTimeTicketAPI", "EmployeeTimeTicketAPI\EmployeeTimeTicketAPI.csproj", "{4FAB5E92-A9BC-4511-B6CB-12691506EA29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTimeTicketApp.UI", "EmployeeTimeTicketAPI\EmployeeTimeTicketApp.UI.csproj", "{4FAB5E92-A9BC-4511-B6CB-12691506EA29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

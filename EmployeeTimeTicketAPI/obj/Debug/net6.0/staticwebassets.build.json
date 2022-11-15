@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "slVcD9cBGNCh8pFZX+6+keteMBXZKO0H+K7LfaVRi7k=",
-  "Source": "EmployeeTimeTicketAPI",
-  "BasePath": "_content/EmployeeTimeTicketAPI",
+  "Hash": "HR3kOBRGc+h3y2E73RGt2Wp1BPD7JruIJVkW8MRctXQ=",
+  "Source": "EmployeeTimeTicketApp.UI",
+  "BasePath": "_content/EmployeeTimeTicketApp.UI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

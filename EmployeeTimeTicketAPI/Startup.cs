@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
+using EmployeeTimeTicketApp.Domain;
+
 
 namespace EmployeeTimeTicketAPI
 {
@@ -32,8 +34,8 @@ namespace EmployeeTimeTicketAPI
             services.AddControllers();
             services.AddDbContext<EmployeeTimeTicketContext>(opt =>
               opt.UseSqlServer(Configuration.GetConnectionString("DBConnectionString"))
-                 .EnableSensitiveDataLogging()
-                 .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+                 /*.EnableSensitiveDataLogging()
+                 .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)*/);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EmployeeTimeTicketAPI", Version = "v1" });

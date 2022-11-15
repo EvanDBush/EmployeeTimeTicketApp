@@ -52,7 +52,7 @@ namespace EmployeeTimeTicketApp.Data.Migrations
 
                     b.HasIndex("ProjectId");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employees", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeTimeTicketApp.Domain.Project", b =>
@@ -71,7 +71,7 @@ namespace EmployeeTimeTicketApp.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Projects");
+                    b.ToTable("Projects", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeTimeTicketApp.Domain.TimeTicket", b =>
@@ -103,7 +103,7 @@ namespace EmployeeTimeTicketApp.Data.Migrations
 
                     b.HasIndex("ProjectId");
 
-                    b.ToTable("TimeTickets");
+                    b.ToTable("TimeTickets", (string)null);
                 });
 
             modelBuilder.Entity("EmployeeTimeTicketApp.Domain.Employee", b =>
