@@ -11,21 +11,19 @@ namespace EmployeeTimeTicketApp.Data
 {
     public class EmployeeTimeTicketContext: DbContext
     {
+    /*Creates a constructor to take in Db context options for contexts created on startup. 
+     * This allows the app to instantiate a db context, 
+     * pass it the options defined in startup, and
+     * then pass the resulting object into the controller.*/
+        public EmployeeTimeTicketContext(DbContextOptions<EmployeeTimeTicketContext> options)
+            : base(options)
+        {
+
+        }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<TimeTicket> TimeTickets { get; set; }
-
-        private StreamWriter _writer =
-                new("EfCoreLog.txt", append: true);
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(
-                "Data Source= (localdb)\\MSSQLLocalDB; Initial Catalog= EmployeeTimeTIcketAppData")
-                .LogTo(_writer.WriteLine, new[] {DbLoggerCategory.Database.Command.Name},
-                Microsoft.Extensions.Logging.LogLevel.Information)
-                .EnableSensitiveDataLogging();
-            
-        }
+        
 
     }
 }

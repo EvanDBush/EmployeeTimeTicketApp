@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTimeTicketApp.Domain", "EmployeeTimeTicketApp.Domain\EmployeeTimeTicketApp.Domain.csproj", "{4C804725-82F2-4368-AAF8-FCE3DD60DF8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeTimeTicketApp.Domain", "EmployeeTimeTicketApp.Domain\EmployeeTimeTicketApp.Domain.csproj", "{4C804725-82F2-4368-AAF8-FCE3DD60DF8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTimeTicketApp.Data", "EmployeeTimeTicketApp.Data\EmployeeTimeTicketApp.Data.csproj", "{BAD467CA-5B8F-4661-91F2-C34F3EE7A3A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeTimeTicketApp.Data", "EmployeeTimeTicketApp.Data\EmployeeTimeTicketApp.Data.csproj", "{BAD467CA-5B8F-4661-91F2-C34F3EE7A3A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTimeTicketApp.UI", "EmployeeTimeTicketApp.UI\EmployeeTimeTicketApp.UI.csproj", "{10546277-B9BC-4623-97D3-7BAD619CF3AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTimeTicketAPI", "EmployeeTimeTicketAPI\EmployeeTimeTicketAPI.csproj", "{4FAB5E92-A9BC-4511-B6CB-12691506EA29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{BAD467CA-5B8F-4661-91F2-C34F3EE7A3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAD467CA-5B8F-4661-91F2-C34F3EE7A3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAD467CA-5B8F-4661-91F2-C34F3EE7A3A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10546277-B9BC-4623-97D3-7BAD619CF3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10546277-B9BC-4623-97D3-7BAD619CF3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10546277-B9BC-4623-97D3-7BAD619CF3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10546277-B9BC-4623-97D3-7BAD619CF3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FAB5E92-A9BC-4511-B6CB-12691506EA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAB5E92-A9BC-4511-B6CB-12691506EA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAB5E92-A9BC-4511-B6CB-12691506EA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAB5E92-A9BC-4511-B6CB-12691506EA29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

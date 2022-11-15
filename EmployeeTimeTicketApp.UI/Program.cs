@@ -92,6 +92,28 @@ namespace EmployeeTimeTicketApp.UI
                context2.SaveChanges();
             }
         }
+
+        private static void InsertNewEmployeeWithATimeTicket()
+        {
+            var employee = new Employee()
+            {
+                FirstName = "Raymond",
+                TimeTickets = new List<TimeTicket>
+                {
+                    new TimeTicket {Hours = 5.5}
+                }
+            };
+            _context.Employees.Add(employee);
+            _context.SaveChanges();
+        }
+
+        private static void AddTimeTicketToEmployeeNotTracked(int employeeId)
+        {
+            var timeticket = new TimeTicket { Hours = 6.5, EmployeeId = employeeId };
+            using var newContext = new EmployeeTimeTicketContext();
+            newContext.TimeTickets.Add(timeticket);
+            newContext.SaveChanges();
+        }
     }
 }
 
