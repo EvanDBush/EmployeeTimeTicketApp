@@ -15,8 +15,8 @@ namespace EmployeeTimeTicketAPI.Controllers
     public class EmployeesController : ControllerBase
     {
         private readonly EmployeeTimeTicketContext _context;
-/*The Controller uses an instance of the dbcontext. This instance is passed into the constructor. 
- * This is an example of Loose Coupling. "L*/
+        /*The Controller uses an instance of the dbcontext. This instance is passed into the constructor. 
+        * This is an example of Dependency Injection. "L*/
         public EmployeesController(EmployeeTimeTicketContext context)
         {
             _context = context;

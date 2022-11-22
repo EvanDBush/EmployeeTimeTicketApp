@@ -19,6 +19,8 @@ namespace EmployeeTimeTicketAPI
 {
     public class Startup
     {
+        private readonly ILoggerFactory? _loggerFactory;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -31,9 +33,10 @@ namespace EmployeeTimeTicketAPI
         {
         /*Uses Dependency Injection to instantiate a new context of the Db as needed.*/
 
-            services.AddControllers();
-            services.AddDbContext<EmployeeTimeTicketContext>(opt =>
-              opt.UseSqlServer(Configuration.GetConnectionString("DBConnectionString"))
+            services.AddControllersWithViews();
+            services.AddDbContext<EmployeeTimeTicketContext>(options =>
+              options.UseSqlServer(Configuration.GetConnectionString("DBConnectionString"))
+              .UseLoggerFactory(_loggerFactory)
                  /*.EnableSensitiveDataLogging()
                  .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)*/);
             services.AddSwaggerGen(c =>
