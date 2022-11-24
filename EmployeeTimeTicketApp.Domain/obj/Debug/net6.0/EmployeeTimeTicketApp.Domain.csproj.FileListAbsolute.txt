@@ -10,6 +10,7 @@ C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.
 C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\refint\EmployeeTimeTicketApp.Domain.dll
 C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.pdb
 C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\ref\EmployeeTimeTicketApp.Domain.dll
+<<<<<<< HEAD
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.deps.json
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.dll
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.pdb
@@ -22,3 +23,17 @@ C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Doma
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\refint\EmployeeTimeTicketApp.Domain.dll
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.pdb
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\ref\EmployeeTimeTicketApp.Domain.dll
+=======
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.deps.json
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.dll
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.pdb
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.AssemblyInfo.cs
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.dll
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\refint\EmployeeTimeTicketApp.Domain.dll
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\EmployeeTimeTicketApp.Domain.pdb
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Domain\obj\Debug\net6.0\ref\EmployeeTimeTicketApp.Domain.dll
+>>>>>>> 9f69701c680d34f943abddccc2be3c89cdfec61a

@@ -18,7 +18,7 @@ project uses the Object Relational Mapper Entity Framework to build a relational
  
 ### Features List
 
-- [] 3+ features you have included from the below list to meet the requirements.
+- [x] 3+ features you have included from the below list to meet the requirements.
 
 1. This application is an API connected to a local SQL server database.
 
@@ -34,6 +34,8 @@ are asynchronus.
 After cloning and building the project, please run "update-database" 
 command in the nuget package manager console. This will build a local SQL server database 
 you can explore using SwaggerUI in the browser.
+
+
 
 
 Guide to use markdown for README.md files. (https://guides.github.com/features/mastering-markdown/)
@@ -70,8 +72,8 @@ Failure to meet all requirements will result in you not completing the class.FEA
 
 
 
-- [] Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
-
+- [x] Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
+		
 
 
 - [] Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
@@ -81,7 +83,7 @@ Failure to meet all requirements will result in you not completing the class.FEA
 - [x] Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
 	In the startup.cs file a private Streamwriter named "ErrorLog.txt" is created. 
-	While configuring the options for the dbcontext, errors are configured to append to the ErrorLog file. 
+	While configuring the options for the dbcontext, errors and otehr information are configured to append to the ErrorLog file. 
 
 
 - [x] Add comments to your code explaining how you are using at least 2 of the solid principles

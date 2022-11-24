@@ -15,6 +15,7 @@ C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.
 C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\ref\EmployeeTimeTicketApp.Data.dll
 C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.runtimeconfig.json
 C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.deps.json
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.runtimeconfig.json
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.dll
@@ -32,3 +33,22 @@ C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.pdb
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.genruntimeconfig.cache
 C:\Users\Evan Bush\source\repos\EmployeeTimeTicketApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\ref\EmployeeTimeTicketApp.Data.dll
+=======
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.deps.json
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.runtimeconfig.json
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.dll
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Data.pdb
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.dll
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\bin\Debug\net6.0\EmployeeTimeTicketApp.Domain.pdb
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.csproj.AssemblyReference.cache
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.AssemblyInfoInputs.cache
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.AssemblyInfo.cs
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.csproj.CopyComplete
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.dll
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\refint\EmployeeTimeTicketApp.Data.dll
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.pdb
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\EmployeeTimeTicketApp.Data.genruntimeconfig.cache
+C:\Users\Evan Bush\Desktop\Projects\EmployeeTimeTickerApp\EmployeeTimeTicketApp.Data\obj\Debug\net6.0\ref\EmployeeTimeTicketApp.Data.dll
+>>>>>>> 9f69701c680d34f943abddccc2be3c89cdfec61a

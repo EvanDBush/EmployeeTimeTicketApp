@@ -3537,7 +3537,7 @@
       "projectName": "EmployeeTimeTicketApp.Data",
       "projectPath": "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Data\\EmployeeTimeTicketApp.Data.csproj",
       "packagesPath": "C:\\Users\\Evan Bush\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Evan Bush\\Source\\Repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Evan Bush\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3600,5 +3600,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Data\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
