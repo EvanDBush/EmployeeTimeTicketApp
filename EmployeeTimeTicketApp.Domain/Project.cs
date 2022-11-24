@@ -9,6 +9,7 @@ namespace EmployeeTimeTicketApp.Domain
     public class Project
     {
         public int Id { get; set; }
+
         public string? Name { get; set; }
 
         public double Budget { get; set; }

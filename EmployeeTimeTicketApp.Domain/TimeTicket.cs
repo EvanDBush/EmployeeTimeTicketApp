@@ -22,6 +22,6 @@ namespace EmployeeTimeTicketApp.Domain
 
         public DateTime? DateTime { get; set; }
 
-        public bool HasBeenPaid { get; set; }
+        public bool NotPaid { get; set; }
     }
 }

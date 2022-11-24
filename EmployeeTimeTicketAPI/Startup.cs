@@ -20,6 +20,7 @@ namespace EmployeeTimeTicketAPI
     public class Startup
     {
         private readonly ILoggerFactory? _loggerFactory;
+        private readonly StreamWriter _logstream = new StreamWriter("ErrorLog.txt", append: true);
 
         public Startup(IConfiguration configuration)
         {
@@ -37,8 +38,9 @@ namespace EmployeeTimeTicketAPI
             services.AddDbContext<EmployeeTimeTicketContext>(options =>
               options.UseSqlServer(Configuration.GetConnectionString("DBConnectionString"))
               .UseLoggerFactory(_loggerFactory)
-                 /*.EnableSensitiveDataLogging()
-                 .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)*/);
+              .EnableSensitiveDataLogging()
+              .LogTo(_logstream.WriteLine)
+                 /*.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)*/);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EmployeeTimeTicketAPI", Version = "v1" });

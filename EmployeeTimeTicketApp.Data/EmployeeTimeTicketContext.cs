@@ -11,10 +11,11 @@ namespace EmployeeTimeTicketApp.Data
 {
     public class EmployeeTimeTicketContext: DbContext
     {
-    /*Creates a constructor to take in Db context options for contexts created on startup. 
-     * This allows the app to instantiate a db context, 
-     * pass it the options defined in startup, and
-     * then pass the resulting object into the controller.*/
+        /*Creates a constructor to take in Db context options for contexts created on startup. 
+         * This allows the app to instantiate a db context, 
+         * pass it the options defined in startup, and
+         * then pass the resulting object into the controller.
+         * this is an example of Dependency Injection.*/
         public EmployeeTimeTicketContext(DbContextOptions<EmployeeTimeTicketContext> options)
             : base(options)
         {
