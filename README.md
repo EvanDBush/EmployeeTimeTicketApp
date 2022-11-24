@@ -18,7 +18,7 @@ project uses the Object Relational Mapper Entity Framework to build a relational
  
 ### Features List
 
-- [] 3+ features you have included from the below list to meet the requirements.
+- [x] 3+ features you have included from the below list to meet the requirements.
 
 1. This application is an API connected to a local SQL server database.
 
@@ -70,7 +70,7 @@ Failure to meet all requirements will result in you not completing the class.FEA
 
 
 
-- [] Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
+- [x] Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
 
 
 

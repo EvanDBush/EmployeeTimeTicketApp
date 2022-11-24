@@ -299,4 +299,130 @@ info: 11/23/2022 19:26:11.127 RelationalEventId.CommandExecuted[20101] (Microsof
 dbug: 11/23/2022 19:26:11.127 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
       Creating DbCommand for 'ExecuteNonQuery'.
 dbug: 11/23/2022 19:26:11.127 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
-      Created DbCommand for 'ExecuteNo
+      Created DbCommand for 'ExecuteNowarn: 11/24/2022 00:41:07.274 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 11/24/2022 00:41:07.298 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Employee.ProjectId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 11/24/2022 00:41:07.441 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.0 initialized 'EmployeeTimeTicketContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: SensitiveDataLoggingEnabled 
+dbug: 11/24/2022 00:41:07.454 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 11/24/2022 00:41:07.484 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (29ms).
+dbug: 11/24/2022 00:41:07.484 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:07.488 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.176 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.180 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 11/24/2022 00:41:08.183 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (2ms).
+dbug: 11/24/2022 00:41:08.184 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+dbug: 11/24/2022 00:41:08.186 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 11/24/2022 00:41:08.204 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 11/24/2022 00:41:08.206 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.210 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB' (2ms).
+dbug: 11/24/2022 00:41:08.213 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 11/24/2022 00:41:08.213 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 11/24/2022 00:41:08.213 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+dbug: 11/24/2022 00:41:08.213 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.213 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.214 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: 11/24/2022 00:41:08.227 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 11/24/2022 00:41:08.227 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.227 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB' (0ms).
+dbug: 11/24/2022 00:41:08.228 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.228 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.228 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 11/24/2022 00:41:08.228 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 11/24/2022 00:41:08.228 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 11/24/2022 00:41:08.228 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 11/24/2022 00:41:08.230 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB' (0ms).
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:41:08.230 RelationalEventId.Commandwarn: 11/24/2022 00:44:01.194 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 11/24/2022 00:44:01.290 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Employee.ProjectId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 11/24/2022 00:44:01.851 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.0 initialized 'EmployeeTimeTicketContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: SensitiveDataLoggingEnabled 
+dbug: 11/24/2022 00:44:02.315 CoreEventId.QueryCompilationStarting[10111] (Microsoft.EntityFrameworkCore.Query) 
+      Compiling query expression: 
+      'DbSet<Employee>()'
+dbug: 11/24/2022 00:44:02.822 CoreEventId.QueryExecutionPlanned[10107] (Microsoft.EntityFrameworkCore.Query) 
+      Generated query execution expression: 
+      'queryContext => new SingleQueryingEnumerable<Employee>(
+          (RelationalQueryContext)queryContext, 
+          RelationalCommandCache.QueryExpression(
+              Projection Mapping:
+                  EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.EMail (string), 1], [Property: Employee.FirstName (string) Required, 2], [Property: Employee.HourlyRate (double) Required, 3], [Property: Employee.LastName (string), 4], [Property: Employee.ProjectId (no field, int?) Shadow FK Index, 5], [Property: Employee.TaxWithholding (double) Required, 6] }
+              SELECT e.Id, e.EMail, e.FirstName, e.HourlyRate, e.LastName, e.ProjectId, e.TaxWithholding
+              FROM Employees AS e), 
+          null, 
+          Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+          EmployeeTimeTicketApp.Data.EmployeeTimeTicketContext, 
+          False, 
+          False, 
+          True
+      )'
+dbug: 11/24/2022 00:44:02.969 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 11/24/2022 00:44:03.071 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (100ms).
+dbug: 11/24/2022 00:44:03.073 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 11/24/2022 00:44:03.090 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (128ms).
+dbug: 11/24/2022 00:44:03.098 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (139ms).
+dbug: 11/24/2022 00:44:03.121 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:44:04.482 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'EmployeeTimeTIcketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 00:44:04.501 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [e].[Id], [e].[EMail], [e].[FirstName], [e].[HourlyRate], [e].[LastName], [e].[ProjectId], [e].[TaxWithholding]
+      FROM [Employees] AS [e]
+info: 11/24/2022 00:44:04.650 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (134ms) [Parameters=[],
