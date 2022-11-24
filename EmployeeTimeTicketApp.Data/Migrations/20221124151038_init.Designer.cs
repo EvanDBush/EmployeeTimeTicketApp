@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeTimeTicketApp.Data.Migrations
 {
     [DbContext(typeof(EmployeeTimeTicketContext))]
-    [Migration("20221124002549_paymentrename")]
-    partial class paymentrename
+    [Migration("20221124151038_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,21 @@ namespace EmployeeTimeTicketApp.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("EmployeeProject", b =>
+                {
+                    b.Property<int>("EmployeesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProjectsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("EmployeesId", "ProjectsId");
+
+                    b.HasIndex("ProjectsId");
+
+                    b.ToTable("EmployeeProject");
+                });
 
             modelBuilder.Entity("EmployeeTimeTicketApp.Domain.Employee", b =>
                 {
@@ -37,7 +52,6 @@ namespace EmployeeTimeTicketApp.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("HourlyRate")
@@ -46,15 +60,10 @@ namespace EmployeeTimeTicketApp.Data.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProjectId")
-                        .HasColumnType("int");
-
                     b.Property<double>("TaxWithholding")
                         .HasColumnType("float");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ProjectId");
 
                     b.ToTable("Employees");
                 });
@@ -110,30 +119,34 @@ namespace EmployeeTimeTicketApp.Data.Migrations
                     b.ToTable("TimeTickets");
                 });
 
-            modelBuilder.Entity("EmployeeTimeTicketApp.Domain.Employee", b =>
+            modelBuilder.Entity("EmployeeProject", b =>
                 {
+                    b.HasOne("EmployeeTimeTicketApp.Domain.Employee", null)
+                        .WithMany()
+                        .HasForeignKey("EmployeesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("EmployeeTimeTicketApp.Domain.Project", null)
-                        .WithMany("Employees")
-                        .HasForeignKey("ProjectId");
+                        .WithMany()
+                        .HasForeignKey("ProjectsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("EmployeeTimeTicketApp.Domain.TimeTicket", b =>
                 {
-                    b.HasOne("EmployeeTimeTicketApp.Domain.Employee", "Employee")
+                    b.HasOne("EmployeeTimeTicketApp.Domain.Employee", null)
                         .WithMany("TimeTickets")
                         .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EmployeeTimeTicketApp.Domain.Project", "Project")
+                    b.HasOne("EmployeeTimeTicketApp.Domain.Project", null)
                         .WithMany("TimeTickets")
                         .HasForeignKey("ProjectId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Employee");
-
-                    b.Navigation("Project");
                 });
 
             modelBuilder.Entity("EmployeeTimeTicketApp.Domain.Employee", b =>
@@ -143,8 +156,6 @@ namespace EmployeeTimeTicketApp.Data.Migrations
 
             modelBuilder.Entity("EmployeeTimeTicketApp.Domain.Project", b =>
                 {
-                    b.Navigation("Employees");
-
                     b.Navigation("TimeTickets");
                 });
 #pragma warning restore 612, 618

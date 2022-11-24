@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ER+X4Yu3BCiM3i5Kgd8Tdzpm2Gmd3hmhSFt5lFUf3p/IJ+QlsUsuFEaDqo/EW4KsJ8g3bKjswdlTA+A9SkUYzA==",
+  "dgSpecHash": "mqTkJll9pYgDEUK2DErxMT19aKdRZXngxnpaENDv7/m25kP93P8L8PQXSEK8e1r+BKhwWsp0gbFcR+35dnsRwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Evan Bush\\Desktop\\Projects\\EmployeeTimeTicketApp\\EmployeeTimeTicketAPI\\EmployeeTimeTicketApp.UI.csproj",
+  "projectFilePath": "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketAPI\\EmployeeTimeTicketApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Evan Bush\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Evan Bush\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

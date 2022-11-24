@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evan Bush\\Desktop\\Projects\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj": {}
+    "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evan Bush\\Desktop\\Projects\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj": {
+    "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evan Bush\\Desktop\\Projects\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj",
         "projectName": "EmployeeTimeTicketApp.Domain",
-        "projectPath": "C:\\Users\\Evan Bush\\Desktop\\Projects\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\EmployeeTimeTicketApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Evan Bush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evan Bush\\Desktop\\Projects\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Evan Bush\\AppData\\Roaming\\NuGet\\NuGet.Config",

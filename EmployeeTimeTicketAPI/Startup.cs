@@ -32,7 +32,7 @@ namespace EmployeeTimeTicketAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-        /*Uses Dependency Injection to instantiate a new context of the Db as needed.*/
+        
 
             services.AddControllersWithViews();
             services.AddDbContext<EmployeeTimeTicketContext>(options =>
