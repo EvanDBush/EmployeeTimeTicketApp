@@ -1,0 +1,44 @@
+warn: 11/24/2022 11:09:14.219 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 11/24/2022 11:09:14.252 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'EmployeeProject (Dictionary<string, object>).EmployeesId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 11/24/2022 11:09:14.252 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'EmployeeProject (Dictionary<string, object>).ProjectsId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 11/24/2022 11:09:14.524 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.0 initialized 'EmployeeTimeTicketContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: SensitiveDataLoggingEnabled 
+dbug: 11/24/2022 11:09:14.625 CoreEventId.QueryCompilationStarting[10111] (Microsoft.EntityFrameworkCore.Query) 
+      Compiling query expression: 
+      'DbSet<Employee>()'
+dbug: 11/24/2022 11:09:14.932 CoreEventId.QueryExecutionPlanned[10107] (Microsoft.EntityFrameworkCore.Query) 
+      Generated query execution expression: 
+      'queryContext => new SingleQueryingEnumerable<Employee>(
+          (RelationalQueryContext)queryContext, 
+          RelationalCommandCache.QueryExpression(
+              Projection Mapping:
+                  EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.EMail (string), 1], [Property: Employee.FirstName (string), 2], [Property: Employee.HourlyRate (double) Required, 3], [Property: Employee.LastName (string), 4], [Property: Employee.TaxWithholding (double) Required, 5] }
+              SELECT e.Id, e.EMail, e.FirstName, e.HourlyRate, e.LastName, e.TaxWithholding
+              FROM Employees AS e), 
+          null, 
+          Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+          EmployeeTimeTicketApp.Data.EmployeeTimeTicketContext, 
+          False, 
+          False, 
+          True
+      )'
+dbug: 11/24/2022 11:09:15.026 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 11/24/2022 11:09:15.081 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (54ms).
+dbug: 11/24/2022 11:09:15.082 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 11/24/2022 11:09:15.093 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (71ms).
+dbug: 11/24/2022 11:09:15.098 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (78ms).
+dbug: 11/24/2022 11:09:15.114 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'EmployeeTimeTicketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 11:09:15.937 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'EmployeeTimeTicketAppData' on server '(localdb)\MSSQLLocalDB'.
+dbug: 11/24/2022 11:09:15.954 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [e].[Id], [e].[EMail], [e].[FirstName], [e].[HourlyRate], [e].[LastName], [e]
