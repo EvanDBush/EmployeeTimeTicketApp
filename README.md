@@ -9,7 +9,7 @@ Note that committing and pushing 5 changes at one time is a single commit, not 5
 
 ### A one paragraph or longer description of what your project is about
 
-This project is an API for interacting with a database of employee time tickets, project and employee information. 
+This project is an API for interacting with a database of time ticket, project and employee information. 
 It was built using .NET6.0, Entity Framework, and SQL Server. Object models are created for Employees, Projects, and TimeTickets.
 A list of TimeTickets is stored in the Employee object. The Project object keeps a list of Employees and Tickets. 
 TimeTickets stored contain an employee and project id. The project was designed to showcase some of the 
@@ -78,7 +78,7 @@ Failure to meet all requirements will result in you not completing the class.FEA
 
 
 
-- [x] Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
+1. [x] Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
 		
 Regular Expressions in the EmployeeTimeTicketApp.Domain Employees class can be used to validate properties as they are entered into the
 Employee object.  
@@ -99,13 +99,13 @@ This is an explaination of the specific regex and its parts:
 
 
 
-- [x] Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
+2. [x] Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
 	In EmployeeTimeTicketApp.UI, in the startup.cs file, a private Streamwriter named "ErrorLog.txt" is created on line 23. 
 	While configuring the options for the dbcontext, errors and other information is configured to append to the ErrorLog file on line 44. 
 
 
-- [x] Add comments to your code explaining how you are using at least 2 of the solid principles
+3. [x] Add comments to your code explaining how you are using at least 2 of the solid principles
 
 	Single Responsibility Principle (SRP). Each software module should have one and only one reason to change. The classes for Employees, Projects,
 	and Time Tickets, all have the single responsibility of creating objects.
@@ -118,19 +118,19 @@ This is an explaination of the specific regex and its parts:
 	Dependency Inversion.
 
 
-- [x] Make your application an API
+4. [x] Make your application an API
 
 	This application includes routes to query a local SQL Server that stores Employee Information, Projects, and TimeTickets.
 	The API can be manipulated through the SwaggerUI running in the browser.
 
 
-- [x] Make your application a CRUD API
+5. [x] Make your application a CRUD API
 
 	Located in the EmployeeTimeTicketApp.UI project, The EmployeesController.cs in the Controllers folder contains methods 
 	to Create, Read, Update and Delete Employees from the database.
 
 
-- [x] Make your application asynchronous
+6. [x] Make your application asynchronous
 
 	All of the POST,GET, DELETE, etc. classes in the EmployeesController.cs file are asynchronous. 
 	They send an asynchronous request to the Database, then await a response.  

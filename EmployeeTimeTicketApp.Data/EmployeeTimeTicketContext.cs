@@ -9,10 +9,13 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace EmployeeTimeTicketApp.Data
 {
+    /* (OCP) The EmployeeTimeTicketContext inherits from the DBContext. This way we can extend the DBContext 
+     * in our application without modifying the actual dbcontext class. Using inheritence in this way allows us to 
+     * extend according to the Open and Closed Princinple of the SOLID principles. */
     public class EmployeeTimeTicketContext: DbContext
     {
-        /*Creates a constructor to take in Db context options for contexts created on startup. 
-         * This allows the app to instantiate a db context, 
+        /*Dependency Inversion (DI)
+         * This allows the app to create ann EmployeeTimeTicketContext that inherits a db context, 
          * pass it the options defined in startup, and
          * then pass the resulting object into the controller.
          * this is an example of Dependency Injection.*/
