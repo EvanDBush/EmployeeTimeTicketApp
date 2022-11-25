@@ -15,6 +15,10 @@ A list of TimeTickets is stored in the Employee object. The Project object keeps
 TimeTickets stored contain an employee and project id. The project was designed to showcase some of the 
 development principles we have learned through the CodeLouisville program. Beyond general C# and .NET basics, this 
 project uses the Object Relational Mapper Entity Framework to build a relational database from the designed object classes. 
+
+A special thank you to Code Louisville and my Mentors Doug Sutherland and Daniel "CD" Waddell. I have had so much fun learning 
+about coding and C#. I am grateful for all the time you have given us, I hope someday to pay it forward to others starting their 
+careers in Software Development.
  
 ### Features List
 
@@ -32,8 +36,10 @@ are asynchronus.
 - [x] special instructions required for the reviewer to run your project.
 
 After cloning and building the project, please run "update-database" 
-command in the nuget package manager console. This will build a local SQL server database 
-you can explore using SwaggerUI in the browser.
+command in the nuget package manager console. Make sure to target the EmployeeTimeTicketApp.Data project.
+This will build a local SQL server database. 
+You can then explore the API using SwaggerUI in the browser.
+
 
 
 
@@ -74,34 +80,53 @@ Failure to meet all requirements will result in you not completing the class.FEA
 
 - [x] Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
 		
+Regular Expressions in the EmployeeTimeTicketApp.Domain Employees class can be used to validate properties as they are entered into the
+Employee object.  
 
+This is the regex used: [RegularExpression("^([a-zA-Z]{2,}\\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\\s?([a-zA-Z]{1,})?)",
+						ErrorMessage = "Valid Characters include (A-Z) (a-z) (' space -)")]
 
-- [] Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
+This is an explaination of the specific regex and its parts:
+
+^               // start of line
+[a-zA-Z]{2,}    // will except a name with at least two characters
+\s              // will look for white space between name and surname
+[a-zA-Z]{1,}    // needs at least 1 Character
+\'?-?           // possibility of **'** or **-** for double barreled and hyphenated surnames
+[a-zA-Z]{2,}    // will except a name with at least two characters
+\s?             // possibility of another whitespace
+([a-zA-Z]{1,})? // possibility of a second surname
 
 
 
 - [x] Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
-	In the startup.cs file a private Streamwriter named "ErrorLog.txt" is created. 
-	While configuring the options for the dbcontext, errors and otehr information are configured to append to the ErrorLog file. 
+	In EmployeeTimeTicketApp.UI, in the startup.cs file, a private Streamwriter named "ErrorLog.txt" is created on line 23. 
+	While configuring the options for the dbcontext, errors and other information is configured to append to the ErrorLog file on line 44. 
 
 
 - [x] Add comments to your code explaining how you are using at least 2 of the solid principles
 
+	Single Responsibility Principle (SRP). Each software module should have one and only one reason to change. The classes for Employees, Projects,
+	and Time Tickets, all have the single responsibility of creating objects.
+	
+	Open and Closed Principle (OCP). A module must be open to extension, but closed to modification. 
+	This means new behavior can be added in the future and less bugs are created in the process. An example of this is inheriting the 
+	properties of dbContext to use in the app without directly modifying the dbcontext class. Instead we inherit from dbcontext to create
+	our own EmployeeTimeTicketContext.
 
-
-- [] Make a generic class and use it
+	Dependency Inversion.
 
 
 - [x] Make your application an API
 
-T	his application includes routes to query a local SQL Server that stores Employee Information, Projects, and TimeTickets.
+	This application includes routes to query a local SQL Server that stores Employee Information, Projects, and TimeTickets.
 	The API can be manipulated through the SwaggerUI running in the browser.
 
 
 - [x] Make your application a CRUD API
 
-	Located in the EmployeeTimeTicketApp.UI project, in the Controllers folder are methods 
+	Located in the EmployeeTimeTicketApp.UI project, The EmployeesController.cs in the Controllers folder contains methods 
 	to Create, Read, Update and Delete Employees from the database.
 
 
@@ -111,8 +136,3 @@ T	his application includes routes to query a local SQL Server that stores Employ
 	They send an asynchronous request to the Database, then await a response.  
 
 
-
-- [] Have 2 or more tables (entities) in your application that are related and have a function return data from both entities.  In entity framework, this is equivalent to a join
-
-
--[] Query your database using a raw SQL query, not EF

@@ -29,7 +29,9 @@ namespace EmployeeTimeTicketAPI
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        /* (OCP)This method gets called by the runtime. Use this method to add services to the container. this method is 
+         * open to extention by adding more services. The parameter services is taken and can then extend the services 
+         * to add controllers or loggers without modifying the methods for each concern. */
         public void ConfigureServices(IServiceCollection services)
         {
         

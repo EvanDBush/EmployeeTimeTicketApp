@@ -6,8 +6,9 @@ namespace EmployeeTimeTicketApp.Domain
     public class Employee
     {
         public int Id { get; set; }
-
-        /*[RegularExpression("^([a-zA-Z]{2,}\\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\\s?([a-zA-Z]{1,})?)", 
+        /*(SRP) Single Responsibility Principle. One of the goals of solid priciples is to separate concerns in the program. The Employee class only has one job, 
+        to create emplyee objects. This is its single responsiblility.
+        [RegularExpression("^([a-zA-Z]{2,}\\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\\s?([a-zA-Z]{1,})?)",
             ErrorMessage = "Valid Characters include (A-Z) (a-z) (' space -)")]*/
         public string? FirstName { get; set; }
 
