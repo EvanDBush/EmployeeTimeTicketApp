@@ -115,7 +115,11 @@ This is an explaination of the specific regex and its parts:
 	properties of dbContext to use in the app without directly modifying the dbcontext class. Instead we inherit from dbcontext to create
 	our own EmployeeTimeTicketContext.
 
-	Dependency Inversion.
+	Dependency Inversion (DI). High-level modules should not depend on low-level modules. 
+	Both should depend on abstrations. Abstrations should not depend on details. Details should 
+	depend on abstrations. This project uses an interface of dbContext called EmployeeTimeTicketContext. 
+	This abstraction is then passed the base options of dbcontext. The EmployeeTimeTicketContexts includes the 
+	details of Employee, Project, and Time Ticket Db sets.
 
 
 4. [x] Make your application an API

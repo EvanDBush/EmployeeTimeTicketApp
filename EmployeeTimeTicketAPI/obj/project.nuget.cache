@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mqTkJll9pYgDEUK2DErxMT19aKdRZXngxnpaENDv7/m25kP93P8L8PQXSEK8e1r+BKhwWsp0gbFcR+35dnsRwA==",
+  "dgSpecHash": "yunWqhIJ2eG67489KLWIv1kwq3OPJBQY5HcukiMSj7sMudQHTmJvcCo0n2uq/KzV4hzlHLAJNvsH4KfqvFK25g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Evan Bush\\source\\repos\\EmployeeTimeTicketApp\\EmployeeTimeTicketAPI\\EmployeeTimeTicketApp.UI.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,7 @@
     "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
-    "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.10\\microsoft.entityframeworkcore.tools.6.0.10.nupkg.sha512",
+    "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Evan Bush\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
