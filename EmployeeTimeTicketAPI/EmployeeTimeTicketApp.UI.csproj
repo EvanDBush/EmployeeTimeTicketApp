@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <OutputType>WinExe</OutputType>
-    <StartupObject>EmployeeTimeTicketAPI.Program</StartupObject>
+    <StartupObject>EmployeeTimeTicketApp.UI.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

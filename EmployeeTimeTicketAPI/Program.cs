@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmployeeTimeTicketAPI
+namespace EmployeeTimeTicketApp.UI
 {
     public class Program
     {

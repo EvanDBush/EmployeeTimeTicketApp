@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using EmployeeTimeTicketApp.Data;
 using EmployeeTimeTicketApp.Domain;
 
-namespace EmployeeTimeTicketAPI.Controllers
+namespace EmployeeTimeTicketApp.UI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

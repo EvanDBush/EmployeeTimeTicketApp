@@ -1,7 +1,7 @@
-using EmployeeTimeTicketApp.Data;
+/*using EmployeeTimeTicketApp.Data;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeeTimeTicketAPI.Controllers
+namespace EmployeeTimeTicketApp.UI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -16,4 +16,4 @@ namespace EmployeeTimeTicketAPI.Controllers
             _dbContext = dbContext;
         }
     }
-}
+}*/
